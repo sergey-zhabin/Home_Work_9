@@ -72,11 +72,11 @@ void Zadacha68()
     if (numberM == 0)
         {
             return numberN + 1;
-        } // Шаг рекурсии / рекурсивное условие
+        } 
     else if (numberN == 0 && numberM > 0)
         {
             return Recursion(numberM - 1, 1);
-        } // Шаг рекурсии / рекурсивное условие
+        } 
     else
         {
             return Recursion(numberM - 1, Recursion(numberM, numberN - 1));
